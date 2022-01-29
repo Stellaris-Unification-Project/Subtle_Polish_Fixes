@@ -121,7 +121,7 @@ country_event = {
 		}
 		change_dominant_species = { species = event_target:representative_pop.species }
 		observer_event = { id = observer.5 }
-		every_country = {
+		every_playable_country = {
 			limit = {
 				is_ai = no
 				has_communications = root
@@ -263,7 +263,7 @@ country_event = {
 		}
 		change_dominant_species = { species = event_target:representative_pop.species }
 		observer_event = { id = observer.6 }
-		every_country = {
+		every_playable_country = {
 			limit = {
 				is_ai = no
 				has_communications = root
